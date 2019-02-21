@@ -1,6 +1,7 @@
 #ifndef OLEDDISPLAYFONTS_h
 #define OLEDDISPLAYFONTS_h
-
+// Created by http://oleddisplay.squix.ch/ Consider a donation
+// In case of problems make sure that you are using the font file with the correct version!
 const uint8_t Monospaced_plain_8[] PROGMEM = {
 	0x05, // Width: 5
 	0x0A, // Height: 10
