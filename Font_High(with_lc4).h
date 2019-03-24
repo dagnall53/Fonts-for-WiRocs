@@ -1,5 +1,5 @@
 // Font generated or edited with the glyphEditor
-const char const_uint8_t_Font_High[] PROGMEM = {
+const uint8_t Font_High[] PROGMEM = {
 0x0A, // Width: 10
 0x10, // Height: 16
 0x20, // First char: 32
