@@ -444,7 +444,7 @@ SOFTWARE.
           Font.output('data', '};');
 
           Font.output('header', "// Font generated or edited with the glyphEditor");
-          Font.output('header', `const char ${name}[] PROGMEM = {`);
+          Font.output('header', `const uint8_t ${name}[] PROGMEM = {`);
           // Comments are used when parsing back a generated font
           Font.output('header', `  ${Font.toHexString(this.width)}, // Width: ${this.width}`);
           Font.output('header', `  ${Font.toHexString(this.height)}, // Height: ${this.height}`);
