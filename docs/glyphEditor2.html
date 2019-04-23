@@ -353,9 +353,9 @@ SOFTWARE.
               data[a] = parseInt(data[a], 16);
             }
             data = new Uint8Array(data);
-            filename += ".V3.bin";
+            filename += ".bin";
           } else {
-            filename += ".V3.h";
+            filename += ".h";
           }
 
           let blobObject = new Blob([data], {
